@@ -7,19 +7,19 @@ Este proyecto automatiza la extracción de datos de recaudo del portal web del C
 - Permite seleccionar la entidad territorial de interés.
 - Filtra por categoría, periodo y formulario.
 - Extrae los datos de recaudo en diferentes formatos:
-    Tabla HTML: Se guarda en la variable tabla_html.
-    DataFrame de Pandas: Se guarda en la variable df_final.
-    Lista de filas: Se guarda en la variable lista_filas.
+    - Tabla HTML: Se guarda en la variable tabla_html.
+    - DataFrame de Pandas: Se guarda en la variable df_final.
+    - Lista de filas: Se guarda en la variable lista_filas.
 
 Tener en cuenta que el archivo de cod_entidades.xlsx es el que permite hacer el ciclo y llenar el filtro de entidad, donde hay más de 1000 entidades.
 
 ## Requisitos:
 - Python 3.8 o superior
 - Librerías:
-  Selenium
-  BeautifulSoup
-  Pandas
-  NumPy
+  - Selenium
+  - BeautifulSoup
+  - Pandas
+  - NumPy
 
 ## Limitaciones:
 - El script solo funciona para el portal web del CHIP de Colombia.
