@@ -11,7 +11,10 @@ Este proyecto automatiza la extracción de datos de recaudo del portal web del C
     - DataFrame de Pandas: Se guarda en la variable df_final.
     - Lista de filas: Se guarda en la variable lista_filas.
 
-Tener en cuenta que el archivo de cod_entidades.xlsx es el que permite hacer el ciclo y llenar el filtro de entidad, donde hay más de 1000 entidades.
+#Tener en cuenta:
+- Que el archivo de cod_entidades.xlsx es el que permite hacer el ciclo y llenar el filtro de entidad, donde hay más de 1000 entidades.
+- Asegúrate de tener el controlador de Chrome (`chromedriver.exe`) en tu sistema y actualiza la ruta en el script si es necesario.
+
 
 ## Requisitos:
 - Python 3.8 o superior
@@ -26,4 +29,4 @@ Tener en cuenta que el archivo de cod_entidades.xlsx es el que permite hacer el 
 - Es posible que el script no funcione correctamente si el diseño del portal web cambia.
 
 ## Contacto:
-Si tienes preguntas o sugerencias, puedes contactarme a través de la plataforma de GitHub.
+Si tienes preguntas o sugerencias, puedes contactarme a través de la plataforma de GitHub o a mi correo.
