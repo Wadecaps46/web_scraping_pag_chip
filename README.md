@@ -13,7 +13,7 @@ Este proyecto automatiza la extracción de datos de recaudo del portal web del C
 
 ## Tener en cuenta:
 - Que el archivo de cod_entidades.xlsx es el que permite hacer el ciclo y llenar el filtro de entidad, donde hay más de 1000 entidades.
-- Asegúrate de tener el controlador de Chrome (`chromedriver.exe`) en tu sistema y actualiza la ruta en el script si es necesario.
+- Asegúrate de tener el controlador de Chrome (`chromedriver.exe`) en tu sistema y actualiza la ruta en el script si es necesario. Para instalar su 'chromedriver' ya sea para windows o linux pueden hacerlo aca: https://sites.google.com/chromium.org/driver/downloads/version-selection
 
 
 ## Requisitos:
